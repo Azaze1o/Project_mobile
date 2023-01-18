@@ -53,7 +53,7 @@ public class WikipediaAndroidTests extends TestBase {
         back();
         step("Ввод текста поиска", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();
-            $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Japan");
+            $(AppiumBy.id("org.wikipedia.alpha:id/search_src_text")).sendKeys("Russia");
         });
         step("Проверка кол-ва запросов", () -> {
             $$(AppiumBy.className("android.widget.TextView"))
@@ -62,7 +62,7 @@ public class WikipediaAndroidTests extends TestBase {
         step("Проверка найденого", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title")).click();
             $(AppiumBy.className("android.webkit.WebView")).click();
-            $(AppiumBy.className("android.widget.TextView")).shouldHave(text("Japan"));
+            $(AppiumBy.className("android.widget.TextView")).shouldHave(text("Russia"));
         });
     }
 }
