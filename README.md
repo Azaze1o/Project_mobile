@@ -51,21 +51,25 @@ gradle clean test
 -DdeviceHost=local
 ```
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins]()
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/project_mobile/)
 
 Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать*</strong></code>.
 
 <p align="center">
-  
+  <img src="images/screenshot/jenkins.png" alt="Jenkins" width="800">
 </p>
 
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки появится
 значок *Allure Report*, кликнув по которому, откроется страница с сформированным html-отчетом.
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report]()
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/project_mobile/6/allure/)
 
 <p align="center">
-  
+  <img src="images/screenshot/allure-report1.png" alt="allure-report1" width="900">
+</p>
+
+<p align="center">
+  <img src="images/screenshot/allure-report.png" alt="allure-report" width="900">
 </p>
 
 
@@ -87,6 +91,7 @@ gradle clean test
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
+<img title="Telegram Notifications" src="images/screenshot/notification.png">
 
 
 ## <img width="4%" title="Selenoid" src="images/logo/Browserstack.svg"> Пример запуска теста в Browserstack
@@ -99,5 +104,5 @@ gradle clean test
 
 
 <p align="center">
-  
+  <img title="Browserstack Video" src="images/gif/mobile_test.gif">
 </p>
