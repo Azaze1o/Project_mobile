@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "Boxberry_15",
+    "environment": "qa.guru",
+    "comment": "report",
+    "reportLink": "https://jenkins.autotests.cloud/job/Boxberry_15/28/",
+    "language": "en",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5914460296:AAFLiR8bihqHr7QplKa6zYYWZH1iOsxzEyY",
+    "chat": "263539944",
+    "replyTo": ""
+  }
+}
