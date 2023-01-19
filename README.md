@@ -7,7 +7,6 @@
 - [Запуск тестов из терминала](#computer-запуск-тестов-из-терминала)
 - [Запуск тестов в Jenkins](#-запуск-тестов-в-jenkins)
 - [Отчет о результатах тестирования в Allure Report](#-отчет-о-результатах-тестирования-в-Allure-report)
-- [Интеграция с Allure TestOps](#-интеграция-с-allure-testops)
 - [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
 - [Пример запуска теста в Browserstack](#-пример-запуска-теста-в-Browserstack)
 
@@ -23,7 +22,6 @@
 <code><img width="5%" title="Appium" src="images/logo/Appium.svg"></code>
 <code><img width="5%" title="Browserstack" src="images/logo/Browserstack.svg"></code>
 <code><img width="5%" title="Allure Report" src="images/logo/Allure.svg"></code>
-<code><img width="5%" title="Allure TestOps" src="images/logo/Allure_TO.svg"></code>
 <code><img width="5%" title="Jenkins" src="images/logo/Jenkins.svg"></code>
 <code><img width="5%" title="Telegram" src="images/logo/Telegram.svg"></code>
 
@@ -72,20 +70,6 @@ gradle clean test
   <img src="images/screenshot/allure-report.png" alt="allure-report" width="900">
 </p>
 
-
-## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps]()
-
-### Основной дашборд
-
-<p align="center">
-  
-</p>
-
-### Список тестов с результатами прогона
-
-<p align="center">
-  
-</p>
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
